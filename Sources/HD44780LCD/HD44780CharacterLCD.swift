@@ -59,11 +59,7 @@
     SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE. 
 */
 
-#if arch(arm) && os(Linux)
-    import Glibc
-#else
-    import Darwin
-#endif
+import Glibc
 import SwiftyGPIO  //Comment this when not using the package manager
 
 /**
